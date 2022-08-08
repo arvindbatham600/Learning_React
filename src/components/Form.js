@@ -37,22 +37,23 @@ class Form extends Component {
     }
 
   render() {
+    const { Name, Email, Topic } = this.state
     return (
     <div>
         <form onSubmit={this.submitHandler}>
             <div>
                 <label>Name</label>
-                <input type="text" name="name" value={this.state.Name} onChange = {this.handleNameChange} />
+                <input type="text" name="name" value={Name} onChange = {this.handleNameChange} />
             </div>
 
             <div>
                 <label>Email</label>
-                <input type="email" name="email" value={this.state.Email} onChange = {this.emailHandler}/>
+                <input type="email" name="email" value={Email} onChange = {this.emailHandler}/>
             </div>
 
             <div>
                 <label >Topic</label>
-                <select name="select" value={this.state.Topic} onChange ={this.changeTopicHandler}>
+                <select name="select" value={Topic} onChange ={this.changeTopicHandler}>
                     <option value="React">React</option>
                     <option value="Vue">Vue</option>
                     <option value="Angular">Angular</option>
