@@ -1,5 +1,7 @@
 import "./App.css";
-import Form from "./components/Form";
+import FragmentDemo from "./components/FragmentDemo";
+// import MountingA from "./components/MountingA";
+// import Form from "./components/Form";
 // import Inline from "./components/Inline";
 // import StyleSheet from "./components/StyleSheet";
 // import "./appStyles.css";
@@ -10,7 +12,9 @@ import Form from "./components/Form";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <FragmentDemo />
+      {/* <MountingA  color = "blue"/> */}
+      {/* <Form /> */}
       {/* <Message /> */}
       {/* <h1 className="error"> Error</h1>
       <h1 className={Styles.success}>Success</h1>
