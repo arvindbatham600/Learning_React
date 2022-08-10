@@ -1,5 +1,7 @@
 import "./App.css";
-import FragmentDemo from "./components/FragmentDemo";
+import Parent from "./components/Parent";
+// import PureComp from "./components/PureComp";
+// import FragmentDemo from "./components/FragmentDemo";
 // import MountingA from "./components/MountingA";
 // import Form from "./components/Form";
 // import Inline from "./components/Inline";
@@ -12,7 +14,9 @@ import FragmentDemo from "./components/FragmentDemo";
 function App() {
   return (
     <div className="App">
-      <FragmentDemo />
+      <Parent />
+      {/* <PureComp /> */}
+      {/* <FragmentDemo /> */}
       {/* <MountingA  color = "blue"/> */}
       {/* <Form /> */}
       {/* <Message /> */}
