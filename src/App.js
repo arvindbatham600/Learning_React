@@ -1,5 +1,6 @@
 import "./App.css";
-import Parent from "./components/Parent";
+import RefDemo from "./components/RefDemo";
+// import Parent from "./components/Parent";
 // import PureComp from "./components/PureComp";
 // import FragmentDemo from "./components/FragmentDemo";
 // import MountingA from "./components/MountingA";
@@ -14,7 +15,8 @@ import Parent from "./components/Parent";
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <RefDemo />
+      {/* <Parent /> */}
       {/* <PureComp /> */}
       {/* <FragmentDemo /> */}
       {/* <MountingA  color = "blue"/> */}
