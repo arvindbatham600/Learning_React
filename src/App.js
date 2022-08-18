@@ -1,5 +1,5 @@
-import "./App.css";
-import FocusInput from "./components/FocusInput";
+// import PortalDemo from "./components/PortalDemo";
+// import FocusInput from "./components/FocusInput";
 // import RefDemo from "./components/RefDemo";
 // import Parent from "./components/Parent";
 // import PureComp from "./components/PureComp";
@@ -13,10 +13,28 @@ import FocusInput from "./components/FocusInput";
 // import Welcome from "./components/Welcome";
 // import Message from "./components/Message";
 
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
+
+// import ErrorBoundary from "./components/ErrorBoundary";
+// import Hero from "./components/Hero";
+
 function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <ClickCounter />
+      <HoverCounter />
+      {/* <ErrorBoundary>
+        <Hero name="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero name="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero name="Joker" />
+      </ErrorBoundary> */}
+      {/* <PortalDemo /> */}
+      {/* <FocusInput /> */}
       {/* <RefDemo /> */}
       {/* <Parent /> */}
       {/* <PureComp /> */}
