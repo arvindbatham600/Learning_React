@@ -30,9 +30,9 @@ import { UserProvider } from "./components/UserContext";
 function App() {
   return (
     <div className="App">
-      <UserProvider value= "Alex">
+      {/* <UserProvider value= "Alex"> */}
         <ComponentA />
-      </UserProvider>
+      {/* </UserProvider> */}
       {/* <ClickCounterTwo />
       <HoverCounterTwo />
       <Counter render = {(isLoggedIn) => isLoggedIn ? 'Arvind' : 'Guest'}/> */}

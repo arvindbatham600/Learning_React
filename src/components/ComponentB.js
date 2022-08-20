@@ -4,9 +4,12 @@ import UserContext from './UserContext'
 
 class ComponentB extends Component {
 
+  static contextType = UserContext
+
   render() {
     return (
       <div>
+        <h2>hello {this.context}</h2>
         <ComponentC />
       </div>
     )
@@ -14,5 +17,4 @@ class ComponentB extends Component {
 }
 
 // ComponentB.contextType = UserContext
-
 export default ComponentB
